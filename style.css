@@ -30,7 +30,7 @@
      resize: none;
      padding: 0 20px 0 0;
      margin: 45px 50px 0 150px;
-     width: 500px;
+     width: 600px;
      margin-bottom: 10px;
  }
 
@@ -107,6 +107,6 @@
      margin: 20px 0 0 0;
  }
 
- .texto-desencriptado svg {
+ .texto-desencriptado img {
      width: 336px;
  }
