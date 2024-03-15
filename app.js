@@ -6,7 +6,7 @@ const auxiliarDiv = divEliminar.cloneNode(true);
 
 function encriptarTexto() {
     const texto = textoEncriptador.value;
-    if (texto === '') {
+    if (texto.trim() === '') {
         vibrarElemento();
     } else {
         mostrarTexto(encriptar(texto));
@@ -15,7 +15,7 @@ function encriptarTexto() {
 
 function desencriptar() {
     const texto = textoEncriptador.value;
-    if (texto === '') {
+    if (texto.trim() === '') {
         vibrarElemento();
     } else {
         mostrarTexto(desencriptarTexto(texto));
