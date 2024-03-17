@@ -123,48 +123,33 @@
     animation: vibrar 0.4s ease-in-out infinite;
     box-shadow: 0px 0px 20px 0px #ff0000;
   }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 750px){
+    body{
+        width: max-content;
+
+    }
     main{
-        flex-direction: column;
-    }
-    .encriptador{
-        margin: 0 0 0 0;
-    }
-    .texto-desencriptado{
-        margin: 0 0 0 0;
+        display: block;
+        width: 100%;
+
     }
     #mensaje{
-        margin: 0 0 0 0;
+        font-size: 72px;
     }
     .botones-encriptar{
-        margin: 0 0 0 0;
+        display: block;
     }
-    .texto-desencriptado img{
-        width: 200px;
-    }
-    .elemento-encriptador{
-        margin: 0 0 0 0;
-    }
-    .encriptador p{
-        margin: 0 0 0 0;
+    .texto-desencriptado{
+        display: block;
+        justify-content: center;
+        margin: 20px 100px 0 100px;
+        width: 100%;
     }
     #encriptar,
     #desencriptar,
     #copiar-texto {
+        margin: 10px 100px 0 100px;
         width: 100%;
-        margin: 0 0 0 0;
-    }
-    #copiar-texto {
-        display: block;
-        margin: 5% 0 0 0;
-    }
-    .texto-desencriptado h3{
-        font-size: 16px;
-        margin: 0 0 20px 0;
-    }
-    .texto-desencriptado{
-        margin: 0 0 0 0;
-        width: 100%;
-        height: 500px;
+        font-size: 50px;
     }
 }
